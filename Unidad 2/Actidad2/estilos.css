@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Times New Roman', Times, serif; 
+    font-size:30px ;
+    color: blue;
+ }
+ .parrafo-pricipal{
+     font-family: 'Times New Roman', Times, serif; 
+     font-size:30px ;
+     color: rgb(255, 0, 144); 
+ }
+ .bibli{
+    width: 210px;
+    height: 250px;
+    border-radius: 60%;
+ }

@@ -1,0 +1,9 @@
+/* Ejemplo 1 */
+.basic-button-p {
+
+    font-size: 16px;
+    background-color: #ddda12;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
