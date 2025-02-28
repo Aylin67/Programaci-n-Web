@@ -1,0 +1,65 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: 'Georgia', serif; 
+    background-color: #f0f0f0; /* Color de fondo de la página */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    text-align: center; /* Centrar el contenido */
+    margin-top: 50px; /* Espaciado superior */
+}
+/* Estilos para el título */
+h1 {
+    font-family: 'Lobster', cursive; /* Fuente estilizada para el título */
+    font-size: 28px;
+    color: #8f14ab; /* Color del texto del título */
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el texto del título */
+}
+/* Estilos del formulario */
+form {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #12ebeb; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(173, 27, 156, 0.2);
+    text-align: center; /* Centrar el texto del formulario */
+}
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #800080; /* Color del texto de las etiquetas */
+}
+/* Estilos para los campos de entrada y select */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #17adc8;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* Estilos para el botón */
+button {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif; /* Fuente estilizada para el botón */
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #800080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: 40px auto; /* Centrar el botón */
+}
+/* Efecto al pasar el mouse sobre el botón */
+button:hover {
+    background-color: #094d0d;
+}
