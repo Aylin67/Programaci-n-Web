@@ -1,90 +1,84 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Row</title>
+    <style>
+        .small-card {
+            font-size: 0.8rem;
+        }
+        .small-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .small-card h6 {
+            font-size: 1rem;
+        }
+        .small-card p {
+            font-size: 0.8rem;
+        }
+        .small-card button {
+            font-size: 0.8rem;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
             <h1 class="text-center">Uso del row</h1>
+        </div>
 
+        <div class="row mt-4">
             <div class="col-md-6">
-                <div class="card">
-                    <div style="background-color: rgb(99, 198, 49); color: #ffff;" class="card-header">
-                        <h6 class="text-center">PRIMER CARD</h6>
-                    </div>
-                    <div class="card-body">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium a enim voluptas
-                            quibusdam, est distinctio autem beatae eius nemo adipisci reprehenderit iste, pariatur unde
-                            omnis voluptates. Animi iusto ab repudiandae?</p>
-                    </div>
-                </div>
+                <h5 style="font-size: 1rem;">BOTONES CON CSS</h5>
+                <button class="btn btn-success" style="font-size: 0.8rem;">Boton 1</button>
+                <button class="btn btn-success" style="font-size: 0.8rem;">Boton 2</button>
             </div>
+            <div class="col-md-6">
+                <h5 style="font-size: 1rem;">BOTON CON BOOTSTRAP</h5>
+                <button class="btn btn-primary" style="font-size: 0.8rem;">primer boton</button>
+                <button class="btn btn-danger" style="font-size: 0.8rem;">segundo boton</button>
+            </div>
+        </div>
 
-            <div class="col-md-6">
-                <div class="card">
-                    <div style="background-color: rgb(255, 115, 0); color: #ffffff;" class="card-header">
-                        <h6 class="text-center">SEGUNDO CARD</h6>
-                    </div>
-                    <div class="card-body">
-                        <p style="font-style: italic;">
-                            Flor</p>
-                        <img src="https://th.bing.com/th/id/OIP.lBIH8BH0EvW-anrUbLP52QHaFj?w=750&h=563&rs=1&pid=ImgDetMain"
-                            alt="Imagen Segundo Card" class="img-fluid">
-                    </div>
-                </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h5 style="font-size: 1rem;">PARRAFO</h5>
+                <p style="font-size: 0.8rem;">una constelacion es una agrupacion de distintas estrellas en una porcion de la boveda celeste,
+                    que en apariencia evoca una forma determinada. se trata de asociaciones completamente arbitrarias,
+                    que a menudo responden a figuras y simbolos provenientes de las culturas que dieron lugar
+                    al nombre.</p>
             </div>
-            <div class="row mt-4">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
-                    </div>
-                </div>
-            </div> <!-- Cierra correctamente la primera fila -->
-            
-            <div class="row mt-4">
-                <div class="col-md-2">  <!-- Corrección de 'cold-md-2' a 'col-md-2' -->
-                    <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
-                    </div>
-                </div>
-                <div class="col-md-2">
-                    <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="card">
-                        <div class="card-header"></div>
-                        <div class="card-body"></div>
-                    </div>
-                </div>
-            </div> 
-            
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                crossorigin="anonymous"></script>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h5 style="font-size: 1rem;">BOTON CON ICONO</h5>
+                <button type="button" class="btn btn-info" style="font-size: 0.8rem;">
+                    <i class="bi bi-telephone"></i> Llamar
+                </button>
+                <button type="button" class="btn btn-warning" style="font-size: 0.8rem;">
+                    <i class="bi bi-download"></i> Descargar
+                </button>
+            </div>
+            <div class="col-md-6">
+                <h5 style="font-size: 1rem;">FLOR</h5>
+                <img src="https://th.bing.com/th/id/OIP.lBIH8BH0EvW-anrUbLP52QHaFj?w=750&h=563&rs=1&pid=ImgDetMain" 
+                    alt="Imagen de Flor" class="img-fluid">
+                <p style="font-size: 0.8rem;">Las flores son la estructura reproductiva característica de las plantas llamadas espermatofitas o fanerógamas. La función de una flor es producir semillas a través de la reproducción sexual.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
